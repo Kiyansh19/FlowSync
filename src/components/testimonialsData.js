@@ -11,7 +11,7 @@ const testimonials = [
     {
       name: "Kavya Subedi",
       position: "CEO, Infotech",
-      image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/480407044_1112103217328599_8062419425094384815_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=IAM33OHlqB8Q7kNvgFuqJw6&_nc_oc=AdheuMDhIWtX-bD_DzKaeXme5FBH2f8M6JPEuzpMZg0_39TGxiT6H_vx5M-bIWDdyfw&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=AXHT1Sa7AH4itGeIdOn94DE&oh=00_AYHoScwXElljoM9euy9mu_mR2uWpt_iu6S0ueIR7QacxVQ&oe=67D6476A",
+      image:'/Kavya.jpg',
       rating: 4,
       text: "FlowSysnc Benefits has truly changed the way we manage employee benefits. The team is responsive and always willing to go the extra mile.",
     },
