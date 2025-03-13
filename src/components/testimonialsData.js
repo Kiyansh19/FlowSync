@@ -1,5 +1,5 @@
 // src/testimonialsData.js
-
+import broImage from '../assets/bro.jpg';
 const testimonials = [
     {
       name: "Rahul Mandowara",
@@ -11,7 +11,7 @@ const testimonials = [
     {
       name: "Kavya Subedi",
       position: "CEO, Infotech",
-      image:'/bro.jpg',
+      image:broImage,
       rating: 4,
       text: "FlowSysnc Benefits has truly changed the way we manage employee benefits. The team is responsive and always willing to go the extra mile.",
     },
