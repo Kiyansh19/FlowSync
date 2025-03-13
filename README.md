@@ -1,12 +1,23 @@
-# React + Vite
+# FlowSync - AI-Powered Automation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FlowSync is an AI-powered automation platform built with React and Tailwind CSS, featuring a sleek, responsive UI.
 
-Currently, two official plugins are available:
+ # Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 AI-driven workflow automation
 
-## Expanding the ESLint configuration
+🎨 Modern UI/UX
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Sections: Navbar, Hero, Features, About, Testimonials, Pricing, FAQ, Contact, Footer
+
+💲 Pricing: Free, Pro ($19/mo), Enterprise ($49/mo)
+
+ # Tech Stack
+
+# Frontend:
+ React.js, Tailwind CSS
+
+# Contact:
+For queries, reach out!
+
+*FlowSync - Automate Your Workflow with AI*
