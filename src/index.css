@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+html { 
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px;
+}
+body{
+  background: linear-gradient(to bottom, #ddecfe, #ffffff);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #2d3237;
+  box-sizing: border-box;
+}
+strong{
+  color:rgb(0, 210, 0);
+  font-style: italic;
+  font-weight: 500;
+}
+.listwalla{
+  cursor: pointer;
+  padding: 10px 10px 5px 10px;
+ transition: all 0.1s ease-in-out;
+}
+.listwalla:hover{
+  border-bottom: 2px solid rgb(189, 3, 189);
+}
+@media (max-width:1300px){
+  .contactImage{
+    display: none;
+  }
+}
+@media (max-width:767px){
+  .homeSection{
+    padding-top: 0px;
+  }
+  .buttonswalla{
+    margin-top: 5px;
+  }
+  .smarterWalla{
+    padding-left: 30px;
+  }
+  .features-container{
+    gap: 0;
+    padding-top: 0px;
+  }
+  .features-walla{
+    padding-bottom: 5px;
+  }
+}
