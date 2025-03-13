@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Features from './components/Features'
-import Pricing from './components/pricingSection'
+import Pricing from './components/PricingSection'
 import Testimonials from './components/Testimonials'
 import ContactWalla from './components/Contact'
 

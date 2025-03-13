@@ -48,3 +48,8 @@ strong{
     padding-bottom: 5px;
   }
 }
+@media (max-width:420px){
+  .buttonswalla button{
+    font-size:12px;
+  }
+}
