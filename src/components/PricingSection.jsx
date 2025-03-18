@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRegCheckCircle } from "react-icons/fa";
 
 const Pricing = () => {
   return (
@@ -11,48 +12,49 @@ const Pricing = () => {
           Choose the plan that's right for you. No hidden fees, no surprises . Get started with FlowSync today!
         </p>
 
-        <div className="grid md:grid-cols-3 gap-12 pb-10">
+        <div className="grid md:grid-cols-3 gap-12 p-10">
           {/* Free Plan */}
-          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out  hover:border-2 border-purple-500">
+          <div className=" bg-white p-8 rounded-2xl  shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out  hover:border-2 border-purple-500">
             <h3 className="text-3xl font-semibold mb-4 text-gray-800">Free Plan</h3>
             <p className="text-4xl font-bold text-gray-800 mb-4">$0/mo</p>
             <ul className="mb-8 space-y-2 text-left text-gray-600">
-              <li>✅ Basic Features</li>
-              <li>✅ Perfect for Individuals</li>
-              <li>✅ Limited Support</li>
+              <li className="flex items-center gap-3">
+                <FaRegCheckCircle className="text-green-400" /> Basic Features</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> Perfect for Individuals</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> Limited Support</li>
             </ul>
-            <button className="w-full py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+            <button className="w-full py-3 bg-gradient-to-b from-purple-700 via-purple-600 to-purple-400 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 cursor-pointer">
               Get Started
             </button>
           </div>
 
           {/* Pro Plan */}
-          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out relative hover:border-2 border-purple-500">
+          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform transition-all duration-300 ease-in-out relative hover:border-2 border-purple-500">
             <div className="absolute top-0 right-0 bg-yellow-500 text-xs text-white font-semibold px-3 py-1 rounded-full">
               Most Popular
             </div>
             <h3 className="text-3xl font-semibold mb-4 text-gray-800">Pro Plan</h3>
             <p className="text-4xl font-bold text-gray-800 mb-4">$19/mo</p>
             <ul className="mb-8 space-y-2 text-left text-gray-600">
-              <li>✅ All Features</li>
-              <li>✅ AI Automation</li>
-              <li>✅ Priority Support</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> All Features</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> AI Automation</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> Priority Support</li>
             </ul>
-            <button className="w-full py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+            <button className="w-full py-3 bg-gradient-to-b from-purple-700 via-purple-600 to-purple-400 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 cursor-pointer">
               Get Started
             </button>
           </div>
 
           {/* Enterprise Plan */}
-          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out hover:border-2 border-purple-500 ">
+          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform  transition-all duration-300 ease-in-out hover:border-2 border-purple-500 ">
             <h3 className="text-3xl font-semibold mb-4 text-gray-800">Enterprise Plan</h3>
             <p className="text-4xl font-bold text-gray-800 mb-4">$49/mo</p>
             <ul className="mb-8 space-y-2 text-left text-gray-600">
-              <li>✅ Custom Integrations</li>
-              <li>✅ Team Access</li>
-              <li>✅ Unlimited Automation</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> Custom Integrations</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> Team Access</li>
+              <li className="flex items-center gap-3"><FaRegCheckCircle className="text-green-400" /> Unlimited Automation</li>
             </ul>
-            <button className="w-full py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+            <button className="w-full py-3 bg-gradient-to-b from-purple-700 via-purple-600 to-purple-400 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 cursor-pointer">
               Get Started
             </button>
           </div>

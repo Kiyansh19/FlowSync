@@ -12,7 +12,7 @@ const Testimonials = () => {
   return (
     <section className="bg-gradient-to-b from-blue-200 via-blue-100 to-white py-12 px-6 pb-35 " id="testimonials">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">What Our Clients Say</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-6 ">What Our Clients Say</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {shuffledTestimonials.map((testimonial, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg p-4 border hover:scale-105 duration-150 cursor-alias">
