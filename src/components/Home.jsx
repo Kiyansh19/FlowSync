@@ -12,7 +12,7 @@ const Home = () => {
             <div className="buttonswalla flex gap-8 mt-5 justify-self-center p-5">
                 <button className='py-1 px-4  text-white rounded text-lg  font-semibold cursor-pointer bg-purple-500 hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out'><a href="#pricing">Try for free</a></button>
 
-            <button className='border-2 py-1 px-4 border-purple-400  rounded text-lg  cursor-pointer hover:scale-103 hover:border-2 hover:border-green-300 transition-all duration-300 ease-in'>Watch Demo</button>
+            <button className='border-2 py-1 px-4 border-purple-400  rounded text-lg  cursor-pointer hover:scale-103 hover:border-2 hover:border-green-300 transition-all duration-300 ease-in'><a href="#root">Watch Demo</a></button>
             </div>
             
             </div>

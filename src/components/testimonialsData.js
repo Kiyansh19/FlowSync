@@ -1,5 +1,5 @@
 // src/testimonialsData.js
-import broImage from '../assets/bro.jpg';
+// import broImage from '../assets/bro.jpg';
 const testimonials = [
     {
       name: "Rahul Mandowara",
@@ -9,9 +9,10 @@ const testimonials = [
       text: "It's been an amazing effort from the Nova Benefits team to prioritise every request we've had and offer the best user experience. Looking forward to the continued growth of this association.",
     },
     {
-      name: "Kavya Subedi",
+      name: "Kavya Sharma",
       position: "CEO, Infotech",
-      image:broImage,
+      // image:broImage,
+      image:"https://imgs.search.brave.com/25TIgbZT_nArCCmPSrNw49blPXWVgC9OcI0R-ewhR-k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQ2LzJh/LzRjLzQ2MmE0Y2My/ZWViZTdmNWViYmI5/YWVhNjM3ZGM5ZjNh/LmpwZw",
       rating: 4,
       text: "FlowSysnc Benefits has truly changed the way we manage employee benefits. The team is responsive and always willing to go the extra mile.",
     },
